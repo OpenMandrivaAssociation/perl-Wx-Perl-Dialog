@@ -15,6 +15,9 @@ BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: perl-devel
 BuildRequires: perl(File::Copy::Recursive)
 BuildRequires: perl(Module::Build)
+BuildRequires: perl(Wx)
+BuildRequires: perl(Wx::Event)
+BuildRequires: perl(Wx::STC)
 
 
 BuildArch: noarch
