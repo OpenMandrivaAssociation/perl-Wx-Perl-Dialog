@@ -1,6 +1,6 @@
 
 %define realname   Wx-Perl-Dialog
-%define version    0.03
+%define version    0.04
 %define release    %mkrel 1
 
 Name:       perl-%{realname}
@@ -30,15 +30,15 @@ Abstract dialog class for simple dialog creation
 %setup -q -n %{realname}-%{version} 
 
 %build
-%{__perl} Build.PL installdirs=vendor
-./Build
+%{__perl} Makefile.PL INSTALLDIRS=vendor
+%{__make}
 
 %check
-./Build test
+%{__make} test
 
 %install
 rm -rf %buildroot
-./Build install --destdir %buildroot
+%makeinstall_std
 
 
 %clean
