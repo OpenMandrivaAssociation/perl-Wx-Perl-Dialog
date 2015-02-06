@@ -2,7 +2,7 @@
 
 Name:		perl-%{realname}
 Version:	0.04
-Release:	3
+Release:	4
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Abstract dialog class for simple dialog creation
