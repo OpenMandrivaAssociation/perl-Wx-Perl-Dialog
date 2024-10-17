@@ -7,7 +7,7 @@ License:	GPL or Artistic
 Group:		Development/Perl
 Summary:	Abstract dialog class for simple dialog creation
 Source:		http://www.cpan.org/modules/by-module/Wx/%{realname}-%{version}.tar.gz
-Url:		http://search.cpan.org/dist/%{realname}
+Url:		https://search.cpan.org/dist/%{realname}
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Copy::Recursive)
