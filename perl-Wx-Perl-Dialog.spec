@@ -9,6 +9,7 @@ Summary:	Abstract dialog class for simple dialog creation
 Source:		http://www.cpan.org/modules/by-module/Wx/%{realname}-%{version}.tar.gz
 Url:		https://search.cpan.org/dist/%{realname}
 
+BuildRequires:	make
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Copy::Recursive)
 BuildRequires:	perl(Module::Build)
